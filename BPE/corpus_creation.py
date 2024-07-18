@@ -1,6 +1,14 @@
 import re
 
 def words_from_file(filename):
+    """
+    Extracts words from an input file and writes them to a corpus file.
+
+    Args:
+        filename (str): grammar file
+    Returns:
+        None
+    """
     words = []
     with open(filename, "r", encoding="UTF-8") as file:
         lines = file.readlines()
@@ -10,9 +18,16 @@ def words_from_file(filename):
     with open("corpus.txt", "w", encoding="UTF-8") as output_file:
         for word in words:
             output_file.write(word + "\n")
-    return words
 
 def extract_morphemes_from_file(filename):
+    """
+    Extracts morphemes from an input file and writes them to a morphemes file.
+
+    Args:
+        filename (str): grammar file.
+    Returns:
+        None
+    """
     with open(filename, "r", encoding="UTF-8") as file:
         lines = file.readlines()
         with open("words.txt", "w", encoding="UTF-8") as output_file:
