@@ -1,0 +1,10 @@
+{
+    "corpus_file": "corpus.txt",
+    "morphemes_file": "words.txt",
+    "segmented_words_file": "corpus_segmented.txt",
+    "output_results_file": "results.csv",
+    "output_tokens_file": "tokens.txt",
+    "output_matches_file": "matches.txt",
+    "output_correct_segmentations_file": "correct_segmentations.txt",
+    "max_merges": 512
+}
