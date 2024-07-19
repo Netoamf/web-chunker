@@ -24,7 +24,7 @@ The project is divided into several modules for better organization and maintain
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Netoamf/PIBIC-2023-24/tree/main/UChunker.git
+   git clone https://github.com/Netoamf/PIBIC-2023-24.git
    ```
 
 ## Usage
