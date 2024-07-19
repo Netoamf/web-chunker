@@ -16,7 +16,7 @@ O repositório apresenta a implementação de dois algoritmos distintos para a s
 
 - **Código-fonte:** Implementações em Python dos algoritmos BPE e MDL para segmentação morfológica.
 - **Gramáticas Descritivas:** Arquivos contendo as gramáticas descritivas utilizadas para testar e avaliar os algoritmos.
-- **Documentação:** Este arquivo README.md e outros materiais explicativos sobre o projeto.
+- **Documentação:** Este arquivo README.md e outros nos branchs referentes aos algoritmos. Os arquivos README.md dos algoritmos foram escritos em PB e EN para facilitar o acesso a todos que desejarem usar o programa.
 
 ## Referências Bibliográficas
 
