@@ -24,7 +24,7 @@ The project is divided into several modules for better organization and maintain
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Netoamf/PIBIC-2023-24/tree/main/UChunker.git
+   git clone https://github.com/Netoamf/PIBIC-2023-24.git
    ```
 
 ## Usage
@@ -78,7 +78,7 @@ O projeto está dividido em vários módulos para melhor organização e manuten
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Netoamf/PIBIC-2023-24/tree/main/UChunker.git
+   git clone https://github.com/Netoamf/PIBIC-2023-24.git
    ```
 
 ## Utilização
