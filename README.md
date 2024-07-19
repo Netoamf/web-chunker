@@ -1,4 +1,4 @@
-# UChunker: Segmentação Morfológica com Algoritmos BPE e MDL
+# Segmentação Morfológica com Algoritmos BPE e MDL
 
 ## Descrição
 
