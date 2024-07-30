@@ -53,6 +53,33 @@ The project is divided into several modules for better organization and maintain
 9. To Compare Segmentations Select **option 4** (Ensure the chunker has been started and the descriptive grammar has been processed.)
 10. Select **option 5** to exit the program.
 
+## Update!
+This project has been enhanced with the capability to run automated experiments to analyze the UChunker algorithm's performance under various settings and datasets. The newly introduced `Experiments.py` module provides the following functionality:
+
+**Key Features:**
+
+- **Multiple Grammar Processing:**  Analyze UChunker's performance across different languages and grammatical structures by processing multiple descriptive grammar files.
+- **Parameter Variation:** Conduct experiments with varying numbers of iterations and new segments, using logarithmic spacing to explore a wide range of possibilities.
+- **Memory Management:** The chunker's memory is cleared after each round of experiments, ensuring independent results and preventing interference between different settings.
+- **Detailed Reporting:** Gain insights into the algorithm's performance with comprehensive output files detailing segmentation coverage for each grammar, iteration, and segment count.
+- **Graphical Visualization:** Visualize the relationship between coverage and the number of new segments through informative plots, making it easy to analyze the impact of different configurations on algorithm performance.
+
+**How to Run Experiments:**
+
+1. Navigate to the `UChunker` project directory.
+2. Ensure your descriptive grammar files are in the same directory or provide the full path within the code.
+3. Edit the `experiments.py` file and update the `grammars` variable with the list of grammar files you want to process:
+   ```python
+   if __name__ == "__main__":
+       grammars = ["grammar1.txt", "grammar2.txt"]  # Replace with your grammar files
+   ```
+4. Execute the `experiments.py` script:
+   ```bash
+   python experiments.py
+   ```
+   The script will generate output files containing comparison results and coverage plots in the same directory.
+
+   
 ## (PB)
 
 ## Autoria e Afiliação
@@ -106,3 +133,30 @@ O projeto está dividido em vários módulos para melhor organização e manuten
 8. Para comparar morfemas, selecione a **opção 3** (certifique-se de que o chunker foi iniciado e a gramática descritiva foi processada).
 9. Para comparar segmentações, selecione a **opção 4** (certifique-se de que o chunker foi iniciado e a gramática descritiva foi processada).
 10. Selecione a **opção 5** para sair do programa. 
+
+##  Update!
+
+Este projeto foi aprimorado com a capacidade de executar experimentos automatizados para analisar o desempenho do algoritmo UChunker sob diferentes configurações e conjuntos de dados. O novo módulo `Experiments.py` oferece as seguintes funcionalidades:
+
+**Principais Recursos:**
+
+- **Processamento de Múltiplas Gramáticas:** Analise o desempenho do UChunker em diversas línguas e estruturas gramaticais, processando múltiplos arquivos de gramática descritiva.
+- **Variação de Parâmetros:**  Execute experimentos com diferentes números de iterações e quantidades de novos segmentos, utilizando um espaçamento logarítmico para explorar um amplo espectro de possibilidades.
+- **Gerenciamento de Memória:**  A memória utilizada pelo chunker é limpa após cada rodada de experimentos, garantindo resultados independentes e evitando interferências entre diferentes configurações.
+- **Relatórios Detalhados:**  Obtenha insights sobre o desempenho do algoritmo com arquivos de saída abrangentes, que detalham a cobertura da segmentação para cada gramática, iteração e número de segmentos.
+- **Visualização Gráfica:** Visualize a relação entre a cobertura e o número de novos segmentos através de gráficos informativos, que facilitam a análise do impacto das diferentes configurações no desempenho do algoritmo.
+
+**Como Executar Experimentos:**
+
+1. Navegue até o diretório do projeto `UChunker`.
+2. Certifique-se de que seus arquivos de gramática descritiva estejam no mesmo diretório ou forneça o caminho completo no código.
+3. Edite o arquivo `experiments.py` e atualize a variável `grammars` com a lista de arquivos de gramática que você deseja processar:
+   ```python
+   if __name__ == "__main__":
+       grammars = ["grammar1.txt", "grammar2.txt"]  
+   ```
+4. Execute o script `experiments.py`:
+   ```bash
+   python experiments.py
+   ```
+   O script gerará arquivos de saída com os resultados das comparações e gráficos de cobertura no mesmo diretório.
