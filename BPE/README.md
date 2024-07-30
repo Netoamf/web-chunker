@@ -64,7 +64,7 @@ Este projeto implementa um pipeline de Byte Pair Encoding (BPE) para tokenizaç�
 1. Modifique a configuração no `config.json`.
 2. Crie seus arquivos de corpus e morfemas executando:
     ```bash
-    python -c "from corpus_creation import words_from_file, extract_morphemes_from_file; words_from_file('input_file.txt'); extract_morphemes_from_file('input_file.txt')"
+    python -c "from corpus_creation import words_from_file, extract_morphemes_from_file, words_from_file_regex; words_from_file('input_file.txt'); extract_morphemes_from_file('input_file.txt'); words_from_file_regex('input_file.txt')"
     ```
 3. Execute o script principal:
     ```bash
