@@ -1,10 +1,9 @@
 # UChunker
 
 ## (EN)
-## Authorship and Affiliation
+## Authorship 
 
-- **Authors:** Antonio Morais de Freitas Neto and Prof. João Paulo Lazzarini Cyrino
-- **Affiliation:** Universidade Federal da Bahia
+- **Authors:** Antonio Morais de Freitas Neto and Fernando Yamaguchi
 
 ## Description
 
@@ -82,10 +81,10 @@ This project has been enhanced with the capability to run automated experiments 
    
 ## (PB)
 
-## Autoria e Afiliação
+## Autoria 
 
-- **Autores:** Antonio Morais de Freitas Neto e Prof. João Paulo Lazzarini Cyrino
-- **Afiliação:** Universidade Federal da Bahia
+- **Autores:** Antonio Morais de Freitas Neto e Fernando Yamaguchi
+
 
 ## Descrição
 
