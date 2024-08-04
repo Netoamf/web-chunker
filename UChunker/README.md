@@ -1,6 +1,7 @@
 # UChunker
 
 ## (EN)
+
 ## Authorship
 
 - **Authors:** Antonio Morais de Freitas Neto and Fernando Yamaguchi

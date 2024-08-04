@@ -39,6 +39,7 @@ Este projeto implementa um pipeline de Byte Pair Encoding (BPE) para tokenizaç�
 
 - **Autores:** Antonio Morais de Freitas Neto e Fernando Yamaguchi
 
+
 ## Módulos
 
 - `corpus.py`: Funções para leitura e processamento do corpus.

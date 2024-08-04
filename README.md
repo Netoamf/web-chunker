@@ -41,7 +41,8 @@ O repositório apresenta a implementação de dois algoritmos distintos para a s
 ## (EN)
 ## Description
 
-This repository contains the implementation of the web version of chunkers developed during PIBIC 2023-24. We will implement on a web page a way to morphologically segment words from underrepresented languages ​​for free.
+This repository implements a web-based version of BPE and MDL chunkers for morphological segmentation. 
+
 
 ## Implemented Algorithms
 
