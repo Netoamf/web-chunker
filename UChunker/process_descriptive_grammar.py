@@ -22,7 +22,7 @@ class ProcessDescriptiveGrammar:
         return words
 
     @staticmethod
-    def extract_morphemes_from_file(input_filename, output_filename="morphemes.txt"):
+    def extract_morphemes_from_file(input_filename, output_filename="outputs/morphemes.txt"):
         """
         Extracts morphemes from a file and writes them to another file.
         :param input_filename: Input file name.
@@ -40,7 +40,7 @@ class ProcessDescriptiveGrammar:
         return output_filename
     
     @staticmethod
-    def words_from_file_regex(filename, output_filename="corpus_segmented.txt"):
+    def words_from_file_regex(filename, output_filename="outputs/corpus_segmented.txt"):
         """
         Extracts words from a file using regex and writes them to another file.
         :param filename: Input file name.

@@ -3,7 +3,7 @@ from collections import Counter
 from process_descriptive_grammar import ProcessDescriptiveGrammar
 
 class UChunker:
-    def __init__(self, filename, analysis_output="analysis.txt", log_output="log.txt"):
+    def __init__(self, filename, analysis_output_path="outputs/analysis.txt", segment_frequency_output="outputs/segment_frequency.txt"):
         """
         Initializes the UChunker with the provided filename and output files.
         """
@@ -11,8 +11,8 @@ class UChunker:
         self.corpus = self.process_grammar.words_from_descriptive_grammar()
         self.char_set = set()
         self.lexicon = Counter()
-        self.analysis_output = analysis_output
-        self.log_output = log_output
+        self.analysis_output = analysis_output_path
+        self.segment_frequency_output = segment_frequency_output
         for line in self.corpus:
             chars = ''.join(line)
             for c in chars:
@@ -58,9 +58,9 @@ class UChunker:
             new_segments_count[segment] = freq
         for segment, freq in new_segments_count.items():
             self.lexicon[segment] += freq
-        with open(self.log_output, "w", encoding="UTF-8") as log_file:
+        with open(self.segment_frequency_output, "w", encoding="UTF-8") as segment_frequency_file:
             for segment, freq in self.lexicon.items():
-                log_file.write(f"{segment}: {freq}\n")
+                segment_frequency_file.write(f"{segment}: {freq}\n")
         new_lexicon = Counter()
         for line in self.corpus:
             for segment in self.analyse(line)[1]:

@@ -51,7 +51,7 @@ class Menu:
         if self.output_morphemes is None:
             print("Processar a gramática descritiva primeiro.")
             return
-        output_filename = "compare_morphemes_output.txt"
+        output_filename = "outputs/compare_morphemes_output.txt"
         best_matches_found, total_morphemes = compare_morphemes_to_file(self.chunker.lexicon, self.output_morphemes, output_filename)
         coverage = (best_matches_found / total_morphemes) * 100
         print(f"Resultado salvo em {output_filename}")

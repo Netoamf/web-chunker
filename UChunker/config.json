@@ -1,0 +1,13 @@
+{
+    "analysis_path": "outputs/analysis.txt",
+    "compare_morphemes_path": "outputs/compare_morphemes_output.txt",
+    "corpus_semented_file_path": "outputs/corpus_segmented.txt",
+    "segment_frequency_path": "outputs/segment_frequency.txt",
+    "coverage_plots_directory": "outputs/coverage_plots",
+    "compare_segmentations_directory": "outputs/compare_segmentations.txt",
+    "input_directory": "../Grammars",
+    "cached_grammars": "[]",
+    "selected_grammars": "[]",
+    "segments_amount": 1024,
+    "iterations_amount": 16
+}
