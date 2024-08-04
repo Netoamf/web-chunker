@@ -3,10 +3,9 @@
 
 This project implements a Byte Pair Encoding (BPE) processing pipeline for text tokenization and word segmentation.
 
-## Authorship and Affiliation
+## Authorship
 
-- **Authors:** Antonio Morais de Freitas Neto and Prof. João Paulo Lazzarini Cyrino
-- **Affiliation:** Universidade Federal da Bahia
+- **Authors:** Antonio Morais de Freitas Neto and Fernando Yamaguchi
 
 
 ## Modules
@@ -18,11 +17,7 @@ This project implements a Byte Pair Encoding (BPE) processing pipeline for text 
 - `corpus_creation.py`: Functions for creating corpus and morphemes files from an input file.
 - `main.py`: Main execution script.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Netoamf/PIBIC-2023-24.git
-   ```
+
 ## Usage
 
 1. Modify the configuration in `config.json`.
@@ -40,10 +35,9 @@ This project implements a Byte Pair Encoding (BPE) processing pipeline for text 
 # Pipeline BPE 
 Este projeto implementa um pipeline de Byte Pair Encoding (BPE) para tokenização de texto e segmentação de palavras.
 
-## Autoria e Afiliação
+## Autoria
 
-- **Autores:** Antonio Morais de Freitas Neto e Prof. João Paulo Lazzarini Cyrino
-- **Afiliação:** Universidade Federal da Bahia
+- **Autores:** Antonio Morais de Freitas Neto e Fernando Yamaguchi
 
 ## Módulos
 
@@ -54,14 +48,11 @@ Este projeto implementa um pipeline de Byte Pair Encoding (BPE) para tokenizaç�
 - `corpus_creation.py`: Funções para criar arquivos de corpus e morfemas a partir de um arquivo de entrada.
 - `main.py`: Script principal de execução.
 
-## Instalação
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Netoamf/PIBIC-2023-24.git
-   ```
+
 ## Uso
 
 1. Modifique a configuração no `config.json`.
+
 2. Crie seus arquivos de corpus e morfemas executando:
     ```bash
     python -c "from corpus_creation import words_from_file, extract_morphemes_from_file, words_from_file_regex; words_from_file('input_file.txt'); extract_morphemes_from_file('input_file.txt'); words_from_file_regex('input_file.txt')"
@@ -70,4 +61,3 @@ Este projeto implementa um pipeline de Byte Pair Encoding (BPE) para tokenizaç�
     ```bash
     python main.py
     ```
-
