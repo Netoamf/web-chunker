@@ -1,7 +1,8 @@
 # UChunker
 
 ## (EN)
-## Authorship 
+
+## Authorship
 
 - **Authors:** Antonio Morais de Freitas Neto and Fernando Yamaguchi
 
@@ -19,12 +20,6 @@ The project is divided into several modules for better organization and maintain
 4. **`menu.py`**: Implements a menu-driven interface for users to interact with the different functionalities of the project.
 5. **`main.py`**: The entry point of the application that runs the menu interface.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Netoamf/PIBIC-2023-24.git
-   ```
 
 ## Usage
 
@@ -33,11 +28,12 @@ The project is divided into several modules for better organization and maintain
     python main.py
     ```
 
-** Follow the menu prompts to: 
+**Follow the menu prompts to:**
 - Process descriptive grammar.
 - Start the chunker.
 - Compare Morphemes.
 - Compare Segmentations.
+
 
 ## Step-by-Step Instructions
 
@@ -81,10 +77,9 @@ This project has been enhanced with the capability to run automated experiments 
    
 ## (PB)
 
-## Autoria 
+## Autoria
 
 - **Autores:** Antonio Morais de Freitas Neto e Fernando Yamaguchi
-
 
 ## Descrição
 
@@ -104,7 +99,7 @@ O projeto está dividido em vários módulos para melhor organização e manuten
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Netoamf/PIBIC-2023-24.git
+   git clone https://github.com/Netoamf/web-chunker.git
    ```
 
 ## Utilização
