@@ -34,8 +34,7 @@ O repositório apresenta a implementação de dois algoritmos distintos para a s
 ## (EN)
 ## Description
 
-This repository contains the outcomes of the research project developed by Antonio Morais de Freitas Neto under the supervision of Prof. João Paulo Lazzarini Cyrino within the scope of PIBIC and the final graduation project (TCC) at the Universidade Federal da Bahia. The project aims to explore and compare different approaches for morphological segmentation.
-
+This repository implements a web-based version of BPE and MDL chunkers for morphological segmentation. 
 ## Implemented Algorithms
 
 This repository features the implementation of two distinct algorithms for morphological segmentation:
