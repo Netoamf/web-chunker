@@ -3,10 +3,10 @@
 
 This project implements a Byte Pair Encoding (BPE) processing pipeline for text tokenization and word segmentation.
 
-## Authorship and Affiliation
+## Authorship
 
-- **Authors:** Antonio Morais de Freitas Neto and Prof. João Paulo Lazzarini Cyrino
-- **Affiliation:** Universidade Federal da Bahia
+- **Authors:** Antonio Morais de Freitas Neto and Fernando Yamaguchi
+
 
 
 ## Modules
@@ -40,10 +40,10 @@ This project implements a Byte Pair Encoding (BPE) processing pipeline for text 
 # Pipeline BPE 
 Este projeto implementa um pipeline de Byte Pair Encoding (BPE) para tokenização de texto e segmentação de palavras.
 
-## Autoria e Afiliação
+## Autoria
 
-- **Autores:** Antonio Morais de Freitas Neto e Prof. João Paulo Lazzarini Cyrino
-- **Afiliação:** Universidade Federal da Bahia
+- **Autores:** Antonio Morais de Freitas Neto e Fernando Yamaguchi
+
 
 ## Módulos
 
