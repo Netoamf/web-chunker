@@ -3,7 +3,7 @@
 ## (PB)
 ## Descrição
 
-Este repositório contém os resultados do projeto de pesquisa desenvolvido por mim, Antonio Morais de Freitas Neto, sob orientação do Prof. João Paulo Lazzarini Cyrino no âmbito do PIBIC e do Trabalho de Conclusão de Curso (TCC) na Universidade Federal da Bahia. O projeto visa explorar e comparar diferentes abordagens para a segmentação morfológica.
+Esse repositório contém a implementação da versão web dos chunkers elaborado durante o PIBIC 2023-24. Implementaremos em uma página web uma maneira de segmentar morfológicamente palavras dee línguas sub-representadas de maneira gratuita.
 
 ## Algoritmos Implementados
 
