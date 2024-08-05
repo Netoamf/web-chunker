@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carregar Gramática</title>
+</head>
+<body>
+    <h1>Carregar Gramática</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Carregar</button>
+    </form>
+</body>
+</html>

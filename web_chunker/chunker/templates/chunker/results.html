@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados da Análise</title>
+</head>
+<body>
+    <h1>Resultados da Análise</h1>
+    <ul>
+        {% for result in results %}
+        <li>{{ result.grammar.sentence }}: {{ result.result_data }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
