@@ -1,21 +1,24 @@
 # chunker/models.py
 from django.db import models
 
+class GrammarFile(models.Model):
+    name = models.CharField(max_length=100)
+    label = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.label
+
 class Grammar(models.Model):
+    grammar_file = models.ForeignKey(GrammarFile, on_delete=models.CASCADE)
     sentence = models.TextField()
     gloss = models.TextField()
     translation = models.TextField()
 
 class UserPreference(models.Model):
-    algorithm_choices = [
-        ('uchunker', 'UChunker'),
-        # Outros algoritmos podem ser adicionados aqui
-    ]
     user = models.CharField(max_length=100)
-    algorithm = models.CharField(max_length=20, choices=algorithm_choices)
-    other_preferences = models.JSONField()
+    algorithm = models.CharField(max_length=100)
+    other_preferences = models.TextField(blank=True, null=True)
 
 class AnalysisResult(models.Model):
     grammar = models.ForeignKey(Grammar, on_delete=models.CASCADE)
-    result_data = models.JSONField()
-    created_at = models.DateTimeField(auto_now_add=True)
+    result_data = models.TextField()

@@ -1,13 +1,22 @@
-# chunker/forms.py
 from django import forms
-from .models import UserPreference, Grammar
+from .models import UserPreference, GrammarFile
 
-class GrammarForm(forms.ModelForm):
-    class Meta:
-        model = Grammar
-        fields = ['sentence', 'gloss', 'translation']
+ALGORITHM_CHOICES = [
+    ('uchunker', 'UChunker'),
+    # Adicione outros algoritmos aqui conforme necessário
+]
 
-class UserPreferenceForm(forms.ModelForm):
-    class Meta:
-        model = UserPreference
-        fields = ['user', 'algorithm', 'other_preferences']
+class AlgorithmSelectionForm(forms.Form):
+    algorithm = forms.ChoiceField(choices=ALGORITHM_CHOICES, label='Select Algorithm')
+
+class UploadFileForm(forms.Form):
+    name = forms.CharField(max_length=100, label='Grammar File Name')
+    label = forms.CharField(max_length=100, label='Grammar File Label')
+    file = forms.FileField()
+
+class GrammarSelectionForm(forms.Form):
+    grammar_files = forms.ModelMultipleChoiceField(
+        queryset=GrammarFile.objects.all(),
+        widget=forms.CheckboxSelectMultiple,
+        label='Select Grammar Files'
+    )

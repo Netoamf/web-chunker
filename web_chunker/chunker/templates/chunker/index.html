@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Página Inicial</title>
+    <title>Home Page</title>
 </head>
 <body>
-    <h1>Bem-vindo ao Web-Chunker</h1>
+    <h1>Welcome to Web-Chunker</h1>
     <ul>
-        <li><a href="{% url 'load_grammar' %}">Carregar Gramática</a></li>
-        <li><a href="{% url 'set_preferences' %}">Definir Preferências</a></li>
-        <li><a href="{% url 'run_analysis' %}">Rodar Análise</a></li>
+        <li><a href="{% url 'upload_file' %}">Upload Grammar</a></li>
+        <li><a href="{% url 'select_algorithm' %}">Run Analysis</a></li>
     </ul>
 </body>
 </html>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Set Preferences</title>
+    <title>Select Algorithm</title>
 </head>
 <body>
-    <h1>Set User Preferences</h1>
+    <h1>Select an Algorithm</h1>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">Save Preferences</button>
+        <button type="submit">Select</button>
     </form>
     <a href="{% url 'index' %}">Back to Home</a>
 </body>

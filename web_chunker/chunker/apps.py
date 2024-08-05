@@ -1,5 +1,3 @@
-# chunker/apps.py
-
 from django.apps import AppConfig
 
 class ChunkerConfig(AppConfig):
