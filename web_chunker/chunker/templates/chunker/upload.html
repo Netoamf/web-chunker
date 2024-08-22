@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Grammar File</title>
+</head>
+<body>
+    <h1>Upload Grammar File</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+    <a href="{% url 'index' %}">Back to Home</a>
+</body>
+</html>
